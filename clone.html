@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeMyTrip - Clone</title>
+    <link rel="stylesheet" href="clone.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>MakeMyTrip</h1> 
+            <nav>
+                <ul>
+                    <li><a href="https://www.makemytrip.com/flights/">Flights</a></li>
+                    <li><a href="https://www.makemytrip.com/hotels/">Hotels</a></li>
+                    <li><a href="https://www.makemytrip.com/holidays-india/">Holidays</a></li>
+                    <li><a href="https://www.makemytrip.com/railways/">Trains</a></li>
+                    <li><a href="https://www.makemytrip.com/bus-tickets/">Buses</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="search-box">
+            <h2>Book Flights, Hotels & More</h2>
+            <form>
+                <div class="input-group">
+                    <label for="from">From</label>
+                    <input type="text" id="from" placeholder="Enter City or Airport">
+                </div>
+                <div class="input-group">
+                    <label for="to">To</label>
+                    <input type="text" id="to" placeholder="Enter City or Airport">
+                </div>
+                <div class="input-group">
+                    <label for="departure">Departure Date</label>
+                    <input type="date" id="departure">
+                </div>
+                <div class="input-group">
+                    <label for="return">Return Date</label>
+                    <input type="date" id="return">
+                </div>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="offers">
+        <h1>Exclusive Offers</h1>
+        <div class="offer-cards">
+            <div class="card" id="cardid">
+                <img src="images.jpeg" alt="Offer 1">
+                <p>Domestic Flights</p>
+            </div>
+            <div class="card" id="cardid2">
+                <img src="images-2.jpeg" alt="Offer 2">
+                <p>International Flights</p>
+            </div>
+            <div class="card">
+                <img src="hotel.webp" alt="Offer 3">
+                <p>Book Hotels at Best Prices</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>©️ 2024 MyTrip. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
